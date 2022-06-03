@@ -13,7 +13,7 @@ const moduleNames = process.env.MODULES.split(',');
 /**
  * The array of imported modules.
  */
-const modules = moduleNames.map(name => require(`./${name}`));
+const modules = moduleNames.map((name) => require(`./${name}`));
 
 /**
  * This async handler iterates over the given modules and awaits them.
@@ -28,12 +28,13 @@ const modules = moduleNames.map(name => require(`./${name}`));
  *
  * The handler response.
  */
-exports.handler = async event => {
-  /**
-   * Instead of naively iterating over all handlers, run them concurrently with
-   * `await Promise.all(...)`. This would otherwise just be determined by the
-   * order of names in the `MODULES` var.
-   */
-  await Promise.all(modules.map(module => module.handler(event)));
-  return event;
+exports.handler = async (event) => {
+	/**
+	 * Instead of naively iterating over all handlers, run them concurrently with
+	 * `await Promise.all(...)`. This would otherwise just be determined by the
+	 * order of names in the `MODULES` var.
+	 */
+	console.log('amplify');
+	await Promise.all(modules.map((module) => module.handler(event)));
+	return event;
 };
