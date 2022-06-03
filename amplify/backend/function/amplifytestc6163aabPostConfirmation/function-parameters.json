@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "amplifytestc6163aab",
+  "functionName": "amplifytestc6163aabPostConfirmation",
+  "resourceName": "amplifytestc6163aabPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/Users/romeovarela/.nvm/versions/node/v14.15.4/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "amplifytestc6163aabPostConfirmation",
+  "skipEdit": true,
+  "GROUP": "MeduUsers",
+  "enableCors": false
+}
