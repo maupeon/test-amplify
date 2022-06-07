@@ -17,7 +17,7 @@
       "function": {
         "amplifytestc6163aabPostConfirmation": {
           "deploymentBucketName": "amplify-amplifytest-dev-131144-deployment",
-          "s3Key": "amplify-builds/amplifytestc6163aabPostConfirmation-63783478724a62696c6b-build.zip"
+          "s3Key": "amplify-builds/amplifytestc6163aabPostConfirmation-76484370384e5069616e-build.zip"
         },
         "amplifytestc6163aabPreSignup": {
           "deploymentBucketName": "amplify-amplifytest-dev-131144-deployment",
