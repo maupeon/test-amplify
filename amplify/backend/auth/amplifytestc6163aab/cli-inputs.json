@@ -20,9 +20,6 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "birthdate",
-      "email",
-      "family_name",
       "name"
     ],
     "aliasAttributes": [],
